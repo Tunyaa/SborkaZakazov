@@ -1,0 +1,46 @@
+@options
+@packages
+-classpath
+'/home/sergey/.m2/repository/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar:/home/sergey/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'/home/sergey/NetBeansProjects/App/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/sergey/NetBeansProjects/App/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'App 1.0 API'
+-use
+-version
+-windowtitle
+'App 1.0 API'
+com
+/home/sergey/.m2/repository/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar = 1712347449963
+/home/sergey/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar = 1695178071000
+/home/sergey/NetBeansProjects/App/src/main/java = 1712325191199
+/home/sergey/NetBeansProjects/App/target/site/apidocs/allpackages-index.html = 1712396703565
+/home/sergey/NetBeansProjects/App/target/site/apidocs/element-list = 1712396703533
+/home/sergey/NetBeansProjects/App/target/site/apidocs/index-all.html = 1712396703573
+/home/sergey/NetBeansProjects/App/target/site/apidocs/module-search-index.js = 1712396703565
+/home/sergey/NetBeansProjects/App/target/site/apidocs/member-search-index.js = 1712396703565
+/home/sergey/NetBeansProjects/App/target/site/apidocs/search.js = 1712396703577
+/home/sergey/NetBeansProjects/App/target/site/apidocs/tag-search-index.js = 1712396703565
+/home/sergey/NetBeansProjects/App/target/site/apidocs/jquery-ui.overrides.css = 1712396703585
+/home/sergey/NetBeansProjects/App/target/site/apidocs/package-search-index.js = 1712396703565
+/home/sergey/NetBeansProjects/App/target/site/apidocs/script.js = 1712396703577
+/home/sergey/NetBeansProjects/App/target/site/apidocs/overview-tree.html = 1712396703557
+/home/sergey/NetBeansProjects/App/target/site/apidocs/type-search-index.js = 1712396703565
+/home/sergey/NetBeansProjects/App/target/site/apidocs/index.html = 1712396703573
+/home/sergey/NetBeansProjects/App/target/site/apidocs/allclasses-index.html = 1712396703565
+/home/sergey/NetBeansProjects/App/target/site/apidocs/stylesheet.css = 1712396703577
+/home/sergey/NetBeansProjects/App/target/site/apidocs/help-doc.html = 1712396703577

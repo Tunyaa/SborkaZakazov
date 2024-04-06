@@ -43,14 +43,17 @@ public class Shelf {
         Set<String> keySet = shelf.keySet();
 
         for (String string : keySet) {
+            if (!shelf.get(string).isEmpty()) {
+                Iterator<OrderComposition> iterator = shelf.get(string).iterator();
+            
             System.out.println("Стеллаж " + string);
-            Iterator<OrderComposition> iterator = shelf.get(string).iterator();
-
             while (iterator.hasNext()) {
                 System.out.println(iterator.next().toString() + "\n");
 
             }
             System.out.println("");
+            }
+            
 
         }
 

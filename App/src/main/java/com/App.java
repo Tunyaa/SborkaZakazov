@@ -1,21 +1,23 @@
 package com;
 
+import java.sql.SQLException;
 import java.util.List;
 
 public class App {
 
     private static int[] ids;
 
-    public static void main(String[] args) {
-        for (String arg : args) {
-            System.out.println(arg);
-        }
+    public static void main(String[] args) throws SQLException, ClassNotFoundException {
+        
+        // Аргументы строки переводим в int
         read(args);
-
-        List orders = new Repo().getOrders(ids);
-
+        // Обрабатываем запрос
+        Repo repo = new Repo();
+        List orders = repo.getOrders(ids);
+        // Распределяем товары по стеллажам
         Shelf shelf = new Shelf();
         shelf.putOnShelf(orders);
+        // Вывод
         shelf.printShelf();
 
     }
@@ -23,7 +25,6 @@ public class App {
     private static void read(String[] args) {
         try {
             App.ids = new int[args.length];
-
             for (int i = 0; i < args.length; i++) {
                 App.ids[i] = Integer.parseInt(args[i]);
             }
